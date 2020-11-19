@@ -136,8 +136,8 @@ Ajouter la route dans `router.js`
 Ajouter en début de fichiers deux variables :
 
 ```
-const products = [];
-const selectedProduct = null;
+let productsList = [];
+let selectedProduct = null;
 ```
 
 En utilisant l'API fetch, envoyer une requête `GET` vers l'URL : `https://6a59157b-430d-4969-b802-b9c12470dafb-bluemix.cloudantnosqldb.appdomain.cloud/phones/_all_docs?include_docs=true`
@@ -173,11 +173,11 @@ La réponse du serveur est de la forme :
 }
 ```
 
-En utilisant la méthode `map` sur `rows` transformer chaque object du tableau en sa clé `"doc"`, les ajouters à la variable `products`.
+En utilisant la méthode `map` sur `rows` transformer chaque object du tableau en sa clé `"doc"`, les ajouters à la variable `productsList`.
 
 Editer ensuite la fonction `products`, retirer les `tr` d'exemple du template.
 
-Boucler sur la variable `products` et insérer dans le DOM un `tr` (en utilisant `document.createElement`) par produit.
+Boucler sur la variable `productsList` et insérer dans le DOM un `tr` (en utilisant `document.createElement`) par produit.
 
 Ecouter le click du lien, remplir la variable `selectedProduct` avec l'objet du tableau correspondant.
 
