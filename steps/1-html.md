@@ -51,7 +51,7 @@ La page search contient un formulaire avec 3 champs
 * fmRadio de type radio, 3 valeurs : Yes, No, Whatever (peu importe)
 * availability de type checkbox, 2 valeurs : T-Mobile, Verizon
 
-Elle contient également un lien `Search` vers la page `search.html` et la même classe `btn-link` utilisée dans `Home`.
+Elle contient également un lien `Search` vers la page `products.html` et la même classe `btn-link` utilisée dans `Home`.
 
 ## Products
 
