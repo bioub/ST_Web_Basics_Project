@@ -121,12 +121,9 @@ Dans le fichier `notFound` créer la fonction suivante :
 function notFound(mainEl) {
   const template = `
 <p>Page not found</p>
-  `
+  `;
 
   mainEl.innerHTML = template;
-
-  // selection avec querySelector et
-  // ajouter les addEventListener ici
 }
 ```
 
