@@ -83,7 +83,7 @@ const routes = [
 ];
 ```
 
-Dans le menu, remplacer les liens :
+Dans le menu du fichier `index.html`, remplacer les liens :
 
 * `home.html` par `#/`
 * `about.html` par `#/about`
