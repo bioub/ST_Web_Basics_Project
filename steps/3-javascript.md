@@ -233,13 +233,13 @@ La réponse du serveur est de la forme :
 }
 ```
 
-En utilisant la méthode `map` sur `rows` transformer chaque object du tableau en sa clé `"doc"`, les ajouters à la variable `productsList`.
+En utilisant la méthode `map` sur la propriété `rows` de la réponse, transformer chaque object du tableau en sa clé `doc`, écrire ce nouveau tableau dans `productsList`.
 
-Editer ensuite la fonction `products`, retirer les `tr` d'exemple du template.
+Editer ensuite la fonction `products`, retirer les `tr` d'exemple du template (on gardera le premier `tr` qui affiche le nom des colonnes).
 
-Boucler sur la variable `productsList` et insérer dans le DOM un `tr` (en utilisant `document.createElement`) par produit.
+Après la ligne `mainEl.innerHTML = template`, boucler sur la variable `productsList` et insérer dans le DOM un `tr` (en utilisant `document.createElement`, `appendChild()`...) par produit.
 
-Ecouter le click du lien, remplir la variable `selectedProduct` avec l'objet du tableau correspondant.
+Ecouter le clic du lien Show, remplir la variable `selectedProduct` avec l'objet du tableau correspondant.
 
 ## Product Details
 
