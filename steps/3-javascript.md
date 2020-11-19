@@ -18,7 +18,7 @@ Ajouter un dossier `js` avec 7 fichiers :
 
 ## HTML
 
-Créer un fichier index.html qui reprend la balise `header` avec les liens et la balise `main` vide.
+Créer un fichier `index.html` qui reprend la balise `header` avec les liens et la balise `main` vide.
 
 Insérer tous les fichiers CSS dans la balise `head` dans cette ordre :
 
@@ -45,12 +45,16 @@ Voici le code du fichier `about.js` :
 function about(mainEl) {
   const template = `
 <p>ST Web Basics Project v1.0</p>
-  `
+  `;
 
   mainEl.innerHTML = template;
 
-  // selection avec querySelector et
-  // ajouter les addEventListener ici
+  // si besoin on pourra sélectionner les éléments insérés
+  // dans le main ici, par exemple pour ajouter les produits
+  // reçus du serveur sur la page products ou pour
+  // écouter des événements UI.
+  // ex :
+  // const pEl = mailEl.querySelector('p');
 }
 ```
 
