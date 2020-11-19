@@ -58,13 +58,13 @@ function about(mainEl) {
 }
 ```
 
-Cette fonction reçoit en paramètres une référence vers l'élément `main`, le HTML qui était présent dans la balise `main` de `about.html` se retrouve maintenant dans la variable `template` et est appliquée à l'élément `main` via la propriété `innerHTML`.
+Cette fonction reçoit en paramètre une référence vers l'élément `main`, le HTML qui était présent dans la balise `main` de `about.html` se retrouve maintenant dans la variable `template` et est appliquée à l'élément `main` via la propriété du DOM `innerHTML`.
 
 ## Home
 
 Dans le fichier `home.js` reprenant la structure de la fonction `about` créer une fonction `home` avec le même contenu que le `main` de `home.html`
 
-## Router
+## Routeur
 
 Nous allons créer dans le fichier `router.js` un mécanisme qui appelera la fonction `about` si l'URL `#/about` est utilisée et `home` si l'URL `#/` est utilisée.
 
@@ -88,7 +88,7 @@ Dans le menu, remplacer les liens :
 * `home.html` par `#/`
 * `about.html` par `#/about`
 
-Créer une fonction `matchRoute` avec le code suivant :
+Créer dans `router.js` une fonction  `matchRoute` avec le code suivant :
 
 ```
 function matchRoute() {
@@ -103,11 +103,15 @@ matchRoute();
 window.addEventListener('hashchange', matchRoute);
 ```
 
+Vous devriez voir qu'en cliquant alternativement sur `Home` et `About` la fonction `matchRoute` est appelée et que `location.hash` contient `#/` ou `#/about`.
+
+Nous allons ensuite éditer la fonction `matchRoute` pour quelle recherche dans le tableau `routes` un objet qui correspond à `location.hash` si c'est le cas, on appelera la fonction render de cet objet en lui passant en paramètre la référence sur l'élément `main` et la fonction devrait alors remplir la balise `main`.
+
 Modifier la fonction `matchRoute` :
 
-* créer une variable `mainEl` qui contiendra la référence vers l'élément main
-* rechercher dans le tableau `routes` l'objet qui match `location.hash`
-* appeler la fonction render de cette objet en lui passant en paramètres `mainEl`
+* créer une variable `mainEl` qui contiendra la référence vers l'élément `main`
+* rechercher dans le tableau `routes` l'objet qui correspond à `location.hash`
+* appeler la méthode `render` de cet objet (celle définie dans `routes` donc) en lui passant en paramètre `mainEl`
 
 ## Not Found
 
