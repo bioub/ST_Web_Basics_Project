@@ -107,3 +107,15 @@ th {
 Mettre en forme la page `product-details.html` au plus proche de la maquette :
 
 ![Product Details](../pages/product-details.png "Product Details")
+
+En utilisant les media queries, créer une version mobile de cette page telle que si la largeur de viewport est inférieure à `768px` :
+
+* La grande image ne s'affiche pas
+* On affiche le titre en premier
+* On affiche la description en second
+* On affiche la liste des vignettes l'une sous l'autre (et non plus en colonne)
+
+La version mobile devra ressemble à :
+
+![Product Details Mobile](../pages/product-details-mobile.png "Product Details Mobile")
+
