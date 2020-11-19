@@ -1,6 +1,10 @@
 # Etape 3 - Javascript
 
-Créer un nouveau dossier `spa` et y recopier les dossiers `css` et `img`
+Après avoir créé un dossier `pages` qui était une application HTML/CSS statique, nous allons créer un équivalent plus dynamique où il n'y aura qu'un seul fichier HTML (`index.html`), le passage d'une "page" à une autre se fera en appelant une fonction JavaScript qui remplira la balise `main` via le DOM.
+
+On parle alors de *Single Page Application*.
+
+Créer un nouveau dossier `spa` à la racine du projet (à côté du dossier `pages`) et y recopier les dossiers `css` et `img`
 
 Ajouter un dossier `js` avec 7 fichiers :
 
