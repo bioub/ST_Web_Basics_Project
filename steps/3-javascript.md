@@ -149,26 +149,77 @@ La réponse du serveur est de la forme :
   "total_rows": 20,
   "offset": 0,
   "rows": [
-    { "id": "dell-streak-7" },
-    { "id": "dell-venue" },
-    { "id": "droid-2-global-by-motorola" },
-    { "id": "droid-pro-by-motorola" },
-    { "id": "lg-axis" },
-    { "id": "motorola-atrix-4g" },
-    { "id": "motorola-bravo-with-motoblur" },
-    { "id": "motorola-charm-with-motoblur" },
-    { "id": "motorola-defy-with-motoblur" },
-    { "id": "motorola-xoom" },
-    { "id": "motorola-xoom-with-wi-fi" },
-    { "id": "nexus-s" },
-    { "id": "samsung-galaxy-tab" },
-    { "id": "samsung-gem" },
-    { "id": "samsung-mesmerize-a-galaxy-s-phone" },
-    { "id": "samsung-showcase-a-galaxy-s-phone" },
-    { "id": "samsung-transform" },
-    { "id": "sanyo-zio" },
-    { "id": "t-mobile-g2" },
-    { "id": "t-mobile-mytouch-4g" }
+    {
+      "id": "dell-streak-7",
+      "key": "dell-streak-7",
+      "value": {
+        "rev": "1-2cc4eb0bec0f50055f9b13b74e0e293f"
+      },
+      "doc": {
+        "_id": "dell-streak-7",
+        "_rev": "1-2cc4eb0bec0f50055f9b13b74e0e293f",
+        "additionalFeatures": "Front Facing 1.3MP Camera",
+        "availability": ["T-Mobile"],
+        "hardware": {
+          "fmRadio": false
+        },
+        "images": [
+          "img/phones/dell-streak-7.0.jpg",
+          "img/phones/dell-streak-7.1.jpg",
+          "img/phones/dell-streak-7.2.jpg",
+          "img/phones/dell-streak-7.3.jpg",
+          "img/phones/dell-streak-7.4.jpg"
+        ],
+        "name": "Dell Streak 7"
+      }
+    },
+    {
+      "id": "dell-venue",
+      "key": "dell-venue",
+      "value": {
+        "rev": "1-ea6226c888ab3de72e1a7f719e2a1bba"
+      },
+      "doc": {
+        "_id": "dell-venue",
+        "_rev": "1-ea6226c888ab3de72e1a7f719e2a1bba",
+        "additionalFeatures": "Gorilla Glass display, Dedicated Camera Key, Ring Silence Switch, Swype keyboard.",
+        "availability": ["AT&T,", "KT,", "T-Mobile"],
+        "hardware": {
+          "fmRadio": false
+        },
+        "images": [
+          "img/phones/dell-venue.0.jpg",
+          "img/phones/dell-venue.1.jpg",
+          "img/phones/dell-venue.2.jpg",
+          "img/phones/dell-venue.3.jpg",
+          "img/phones/dell-venue.4.jpg",
+          "img/phones/dell-venue.5.jpg"
+        ],
+        "name": "Dell Venue"
+      }
+    },
+    {
+      "id": "droid-2-global-by-motorola",
+      "key": "droid-2-global-by-motorola",
+      "value": {
+        "rev": "1-b969ea2356dd64566b7757bd56b0d3a9"
+      },
+      "doc": {
+        "_id": "droid-2-global-by-motorola",
+        "_rev": "1-b969ea2356dd64566b7757bd56b0d3a9",
+        "additionalFeatures": "Adobe Flash Player 10, Quadband GSM Worldphone, Advance Business Security, Complex Password Secure, Review & Edit Documents with Quick Office, Personal 3G Mobile Hotspot for up to 5 WiFi enabled Devices, Advanced Social Networking brings all social content into a single homescreen widget",
+        "availability": ["Verizon"],
+        "hardware": {
+          "fmRadio": false
+        },
+        "images": [
+          "img/phones/droid-2-global-by-motorola.0.jpg",
+          "img/phones/droid-2-global-by-motorola.1.jpg",
+          "img/phones/droid-2-global-by-motorola.2.jpg"
+        ],
+        "name": "DROID™ 2 Global by Motorola"
+      }
+    }
   ]
 }
 ```
