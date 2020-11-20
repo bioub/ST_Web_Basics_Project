@@ -42,6 +42,7 @@ Insérer tous les fichiers JS en fin de balise `body` dans cette ordre :
 Voici le code du fichier `about.js` :
 
 ```
+/** @param {HTMLElement} */
 function about(mainEl) {
   const template = `
 <p>ST Web Basics Project v1.0</p>
