@@ -52,3 +52,4 @@ La page product details affiche le détail du produit :
 * [Etape 1 : HTML](./steps/1-html.md)
 * [Etape 2 : CSS](./steps/2-css.md)
 * [Etape 3 : JS](./steps/3-javascript.md)
+* [Etape 4 : Optionnel](./steps/4-optional.md)
