@@ -139,14 +139,13 @@ Ajouter dans cette fonction `matchRoute` un morceau de code qui va ajouter la cl
 
 ## Products
 
-Dans `products.js` créer une fonction `products` sur le principe des précédentes pages.
+Dans `products.js` créer une fonction `products` sur le principe des précédentes pages (variable template affectée à mainEl.innerHTML).
 
 Ajouter la route dans `router.js`
 
-Ajouter en début de fichiers deux variables :
+Ajouter en début de fichiers une variable :
 
 ```
-let productsList = [];
 let selectedProduct = null;
 ```
 
@@ -244,7 +243,7 @@ Ecouter le clic du lien Show, remplir la variable `selectedProduct` avec l'objet
 
 ## Product Details
 
-Dans `product-details.js` créer une fonction `productDetails` sur le principe des précédentes pages.
+Dans `product-details.js` créer une fonction `productDetails` sur le principe des précédentes pages (variable template affectée à mainEl.innerHTML).
 
 Ajouter la route dans `router.js`
 
