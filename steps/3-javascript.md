@@ -55,7 +55,7 @@ function about(mainEl) {
   // reçus du serveur sur la page products ou pour
   // écouter des événements UI.
   // ex :
-  // const pEl = mailEl.querySelector('p');
+  // const pEl = mainEl.querySelector('p');
 }
 ```
 
