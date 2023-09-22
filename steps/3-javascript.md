@@ -241,6 +241,8 @@ Après la ligne `mainEl.innerHTML = template`, boucler sur la variable `products
 
 Ecouter le clic du lien Show, remplir la variable `selectedProduct` avec l'objet du tableau correspondant.
 
+BONUS : au lieu de créer une variable globale `selectedProduct`, passer par le localStorage pour échanger entre les 2 pages (products et productDetails)
+
 ## Product Details
 
 Dans `product-details.js` créer une fonction `productDetails` sur le principe des précédentes pages (variable template affectée à mainEl.innerHTML).
